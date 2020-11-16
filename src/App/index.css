@@ -106,3 +106,25 @@ width: min-content;
   
 }
 
+.Input-error{
+  color:red
+}
+
+@media screen and (max-width: 600px) {
+
+  .Login{
+    width: 300px;}
+
+    .Label--username{
+      width: auto;
+  
+    }
+    .Label--password{
+      width: auto;
+    }
+    .Input{
+      width: auto;
+    }
+
+
+  }
